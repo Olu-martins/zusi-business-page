@@ -1,5 +1,15 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn about ZUSI - Africa's all-in-one utility platform solving the bill payment problem. Discover our mission, solution, and market opportunity across Africa.",
+  openGraph: {
+    title: "About ZUSI - Africa's Utility Payment Platform",
+    description: "Learn about ZUSI and how we're solving bill payment challenges across Africa with our comprehensive payment infrastructure.",
+  },
+};
 
 export default function About() {
   return (

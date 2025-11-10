@@ -1,6 +1,16 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Products",
+  description: "Explore ZUSI's comprehensive payment infrastructure: Utility payments, shared expense splitting, payment automation, financial tracking, and secure settlement infrastructure for Africa.",
+  openGraph: {
+    title: "ZUSI Products - Complete Payment Infrastructure",
+    description: "Discover ZUSI's products: All-in-one utility payments, shared expenses, automation, and financial tracking designed for Africa.",
+  },
+};
 
 export default function Products() {
   const products = [
