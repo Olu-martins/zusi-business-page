@@ -35,16 +35,30 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-300">
-            
               <li>
-                <Link href="/products" className="hover:text-accent-green transition-colors">
-                  Products
-                </Link>
+                <a href="#home" className="hover:text-accent-green transition-colors">
+                  Home
+                </a>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-accent-green transition-colors">
+                <a href="#features" className="hover:text-accent-green transition-colors">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="#products" className="hover:text-accent-green transition-colors">
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="hover:text-accent-green transition-colors">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#waitlist" className="hover:text-accent-green transition-colors">
                   Join Waitlist
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -53,10 +67,19 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Support</h3>
             <ul className="space-y-2 text-gray-300">
-         
               <li>
-                <a href="mailto:admin@zusi.africa" className="hover:text-accent-green transition-colors">
-                admin@zusi.africa
+                <a href="#waitlist" className="hover:text-accent-green transition-colors">
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a href="#waitlist" className="hover:text-accent-green transition-colors">
+                  Join Waitlist
+                </a>
+              </li>
+              <li>
+                <a href="mailto:support@zusiafrica.com" className="hover:text-accent-green transition-colors">
+                  support@zusiafrica.com
                 </a>
               </li>
             </ul>

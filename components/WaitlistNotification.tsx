@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 
 export default function WaitlistNotification() {
   const [isVisible, setIsVisible] = useState(false);
@@ -60,13 +59,13 @@ export default function WaitlistNotification() {
             <p className="text-sm md:text-base text-white/90 mb-3">
               Be among the first to experience ZUSI. Get early access and exclusive benefits!
             </p>
-            <Link
-              href="/contact"
+            <a
+              href="#waitlist"
               onClick={handleClose}
               className="inline-block bg-white text-accent-green px-6 py-2 rounded-lg hover:bg-white/90 transition-colors font-semibold text-sm md:text-base shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Join Now
-            </Link>
+            </a>
           </div>
           <button
             onClick={handleClose}

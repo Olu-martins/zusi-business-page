@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const carouselSlides = [
   {
@@ -124,12 +123,12 @@ export default function HeroCarousel() {
                         </p>
                       </div>
                       <div className="pt-6 animate-fade-in-up-delay">
-                        <Link
-                          href="/products"
+                        <a
+                          href="#waitlist"
                           className="inline-block bg-accent-green text-white px-8 py-4 rounded-lg hover:bg-accent-green/90 transition-all duration-300 font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transform"
                         >
                           Get Started
-                        </Link>
+                        </a>
                       </div>
                     </>
                   )}
